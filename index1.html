@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <style>
+        header {
+            background: url(img/the1975poster.png);
+            background-size: cover;
+            background-position: center;
+            min-height: 1000px;
+        }
+        @media screen and (max-width: 670px){
+            header {
+                min-height: 500px;
+            }
+        }
+        
+    </style>
+    
+    <title>The 1975</title>
+</head>
+    <body>
+        <header></header>
+        <div class="">
+            <h1 class="center">The 1975 Members</h1>
+
+        </div>
+        <section class="container section scrollspy" id="photo's">
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="img/george.png" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l6 offset-l1">
+                    <h2 class="indigo-text text-darken-6">George Daniel</h2>
+                    <p>George Bedford Daniel is a Belgian-born British musician and record producer. He came to prominence as a founding member, principal producer, and drummer of the indie art pop band the 1975. George Daniel. Daniel performing in Germany in 2019.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="img/adam.png" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l6 offset-l1">
+                    <h2 class="indigo-text text-darken-6">Adam Hann</h2>
+                    <p>Adam Hann is the lead guitarist for the indie rock band The 1975 whose self-titled debut album topped the UK Albums Chart.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 l4">
+                    <img src="img/matty.png" alt="" class="responsive-img materialboxed">
+                </div>
+                <div class="col s12 l6 offset-l1">
+                    <h2 class="indigo-text text-darken-6">Matty Healy</h2>
+                    <p>Matthew Timothy Healy is an English singer-songwriter and record producer who is the lead vocalist and principal songwriter of indie art pop band the 1975. He is recognised for his lyricism, musical eclecticism, provocative onstage persona characterised as performance art, and influence on indie pop music.</p>
+                </div>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <img src="img/ross.png" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 l6 offset-l1">
+                        <h2 class="indigo-text text-darken-6">Ross MacDonald</h2>
+                        <p>Ross MacDonald is a member of the English indie rock group The 1975 who released four EPs before finally releasing a full length debut album in September of 2013. He is born in June 6, 1989, he is also the bassist of The 1975.</p>
+                    </div>
+            </div>
+        </section>
+        <td>
+            <img src="img/1975-1.jpg" height="320" width="430" />
+        </td>
+        <td>
+            <img src="img/1975-2.png" height="320" width="430" />
+        </td>
+        <td>
+            <img src="img/1975-3.png" height="320" width="430" />
+        </td>
+        <section class="container section scrollspy" id="songs">
+            <div class="songs">
+                <h1 class="center">The 1975 Songs</h1>
+                    <div>
+                      <br>
+                      <br>
+                      <br>
+                      <h5 class="left-align offset-l1">It's not living if it's not with you</h5>
+                      <video controls autoplay muted loop src="video/INLINWY.mp4" width="430"></video>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <h5 class="left-align offset-l1">Narcissist</h5>
+                      <video controls autoplay muted loop src="video/N.mp4" width="430"></video>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <h5 class="left-align offset-l1">Robbers</h5>
+                      <video controls autoplay muted loop src="video/R.mp4" width="430"></video>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <h5 class="left-align offset-l1">Somebody Else</h5>
+                      <video controls autoplay muted loop src="video/SE.mp4" width="430"></video>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <h5 class="left-align offset-l1">Sincerity is Scary</h5>
+                      <video controls autoplay muted loop src="video/SIS.mp4" width="430"></video>
+                      <br>
+            </div>
+        </section>
+ 
+
+        <script src="js/jquery.js"></script>
+        <script src="js/materialize.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.materialboxed').materialbox();
+                $('.tabs').tabs();
+                $('.datepicker').datepicker({
+                    disableWeekends: true
+                });
+                $('.tooltipped').tooltip();
+                $('.scrollspy').scrollSpy();
+            })
+        </script>
+    </body>
+</html>
